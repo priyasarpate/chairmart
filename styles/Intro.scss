@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.chairmart_container {
+    background-color: black;
+    padding: 20px;
+    margin: 0;
+}
+
+.chairmart {
+    font-size: 150px;
+    text-align: center;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.chairmart_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    place-items: center;
+}
+
+.chairmart_intro {
+    color: gray;
+    font-size: 17px;
+    padding-left: 120px;
+}
+
+.chairmart_second_head__ {
+    display: flex;
+}
+
+.chairmart_numbers {
+    font-size: 50px;
+    color: white;
+    padding: 0;
+    margin: 15px;
+}
