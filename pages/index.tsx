@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import Navbar from "../components/Navbar/Navbar";
+import Header from "../components/Header/Header";
 import Intro from "../components/IntroPage/Intro";
 import IntroImages from "../components/IntroPage/IntoImages";
 
@@ -16,8 +16,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-     <Intro />
-     <IntroImages />
+      <Header />
+     {/* <Intro />
+     <IntroImages /> */}
     </>
   );
 }
